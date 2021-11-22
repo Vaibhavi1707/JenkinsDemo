@@ -8,7 +8,7 @@ agent any
         }
         stage('Run Code') {
             steps {
-                sh "/usr/bin/python3 hello.py"
+                sh "/usr/bin/python3 main.py"
             }
         }
      stage('Test Code') {
